@@ -1,4 +1,5 @@
-node_modules
-src/audio
-src/vedio
-src/img
+node_modules/
+src/audio/
+src/vedio/
+src/img/
+gulpfile00.js

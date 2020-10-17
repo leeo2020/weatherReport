@@ -3,7 +3,7 @@ $('#btn').click(()=>{
       		url:"/weather",
       		dataType:'json',
       		data:{
-      			appkey:"0d7061f7bfa9bf83ad665ca9914a9163",
+      			appkey:"xxxxxxxxxxxxxxxxxxxxxxxxxx",
       			city:$('#inp').val()
       		},
       		success:function(res){
