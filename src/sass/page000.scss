@@ -1,0 +1,15 @@
+h1{
+	width:200px;
+	$height:100px;
+	h2{
+		height:$height;
+		h3{
+			$color:green;
+			color:$color;
+			$bgc:hsl(0,225,125);
+			h4{
+				background-color:$bgc;
+			}
+		}
+	}
+}

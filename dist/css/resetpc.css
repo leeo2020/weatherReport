@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+html,body,div,ul,li,ol,dl,dt,dd,input,a,img,p,span,h1,h2,h3,h4,h5,h6,i,em,strong,b,form,textarea,th,td,table{
+	padding:0; margin: 0;
+}
+
+body,html{
+     font-size: 12px; 
+     font-family: "Microsoft YaHei";
+    /* 320*480px; */
+    /* vw=3.2px; */
+    /* rm=320/100=3.2px; */
+    /*  font-size:31.25vw;
+    background-color: #f5f5f5;*/
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+u,
+a {
+    text-decoration: none;
+    color:black;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+img {
+    border: none;
+}
+.clearfix:after{
+    content:" ";
+    clear:both;
+    height:0;
+    overflow:hidden;
+    display:block;
+    visibility: hidden;
+}
+.clearfix{
+       		*zoom:1;
+       	}
+input {
+    outline: none;
+}
+
+.border_none {
+    background: none !important;
+}

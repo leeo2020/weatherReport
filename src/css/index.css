@@ -1,0 +1,32 @@
+*{
+       		padding: 0;
+       		margin:0;
+       	}
+       	#search{
+       		width:500px;
+       		margin:50px auto;
+       	}
+       	#inp{
+       		width:200px;
+       		height:25px;
+       		line-height:25px;
+       		outline:none;
+       		float:left;
+       		font-size:20px;
+       		text-indent:2em;
+       	}
+       	#btn{
+       		box-sizing: content-box;
+       		width:150px;
+       		font-size:20px;
+       		height:25px;
+       		line-height:25px;
+       		outline:none;
+       		float:left;
+       	}
+       	#box{
+       		width:500px;
+       		height:400px;
+       		margin:20px auto;
+       		background-color: #fff;
+       	}
